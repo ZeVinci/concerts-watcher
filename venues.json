@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "purpose": "Whitelist optionnelle de salles, en bonus du filtre geographique IDF.",
+    "usage": "Le script matche 'match' (sous-chaine normalisee) contre le nom de la salle renvoye par l'API. Sert de filet quand lat/lon ou ville sont absents/sales.",
+    "bandsintown_id": "Conserve pour reference (pages /v/<id>-<slug>) ; non utilise par le diff, qui passe par les events des artistes."
+  },
+  "venues": [
+    { "name": "L'Olympia",          "match": "olympia",          "bandsintown_id": "10001474" },
+    { "name": "La Cigale",          "match": "cigale",           "bandsintown_id": "10009751" },
+    { "name": "Le Trianon",         "match": "trianon",          "bandsintown_id": "10001904" },
+    { "name": "Bataclan",           "match": "bataclan",         "bandsintown_id": "10001164" },
+    { "name": "La Maroquinerie",    "match": "maroquinerie",     "bandsintown_id": "10020592" },
+    { "name": "Elysee Montmartre",  "match": "elysee montmartre","bandsintown_id": "10002730" },
+    { "name": "Salle Pleyel",       "match": "pleyel",           "bandsintown_id": "10003334" },
+    { "name": "Cafe de la Danse",   "match": "cafe de la danse", "bandsintown_id": "10001519" },
+    { "name": "Zenith Paris",       "match": "zenith",           "bandsintown_id": "10003533" },
+    { "name": "Accor Arena",        "match": "accor",            "bandsintown_id": "10198783" },
+    { "name": "La Seine Musicale",  "match": "seine musicale",   "bandsintown_id": "10012985" },
+    { "name": "Philharmonie",       "match": "philharmonie",     "bandsintown_id": "10002501" }
+  ]
+}

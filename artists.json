@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "owner": "Vincent",
+    "purpose": "Liste d'artistes a surveiller pour des concerts en Ile-de-France via l'API Bandsintown (endpoint /artists/{name}/events).",
+    "source": "Analyse Deezer (5 poles) + recommandations + sweep concerts + coups de coeur Deezer (favoris).",
+    "generated": "2026-06-27",
+    "count": 170,
+    "notes": [
+      "Le champ 'name' est la chaine a passer telle quelle a l'endpoint Bandsintown (URL-encoder au moment de la requete).",
+      "verify=true : nom generique ou ambigu, a confirmer une fois sur Bandsintown (risque de collision ou de mauvaise resolution).",
+      "aka : nom sous lequel tu connais l'artiste, quand il differe du nom de scene utilise par Bandsintown.",
+      "Artistes decedes volontairement exclus (aucun concert a capter) : Mano Solo, Christophe, Mark Lanegan.",
+      "Liste = coeur recouvrable de ton profil (~68 noms). Pour atteindre le top-100 exhaustif, recharger l'export Deezer ou le CSV playlist_concerts_vincent.csv."
+    ]
+  },
+  "artists": [
+    {
+      "name": "-M-",
+      "pole": "coups de coeur (a classer)",
+      "aka": "Matthieu Chedid",
+      "verify": true
+    },
+    {
+      "name": "16 Horsepower",
+      "pole": "garage / rock enerve"
+    },
+    {
+      "name": "Afterhours",
+      "pole": "rock italien",
+      "verify": true
+    },
+    {
+      "name": "Agnes Obel",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Alabama Shakes",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Aldous Harding",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Alex Beaupain",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "alt-J",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Andrea Laszlo De Simone",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Angus & Julia Stone",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Angus Stone",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Anna Calvi",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Arcade Fire",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Archive",
+      "pole": "indie / post-punk anglophone",
+      "verify": true
+    },
+    {
+      "name": "Arctic Monkeys",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Arthur H",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Babx",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "bar italia",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Barbara Carlotti",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Batlik",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Ben Harper",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "Benjamin Biolay",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Billie Eilish",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Birds on a Wire",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Black Country, New Road",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Blonde Redhead",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Blur",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Broken Social Scene",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Brunori Sas",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Bumcello",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Cabadzi",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Calexico",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Camélia Jordana",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Camille",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Casey",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Cat Power",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "CocoRosie",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Colapesce Dimartino",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Courtney Barnett",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "CVC",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Daft Punk",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Dead Poet Society",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Debout Sur Le Zinc",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Dee Dee Bridgewater",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "dEUS",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Diam's",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Dom La Nena",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Dominique A",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Editors",
+      "pole": "indie / post-punk anglophone",
+      "verify": true
+    },
+    {
+      "name": "English Teacher",
+      "pole": "indie / post-punk anglophone",
+      "verify": true
+    },
+    {
+      "name": "Entropie",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "EOB",
+      "pole": "indie / post-punk anglophone",
+      "aka": "Ed O'Brien",
+      "verify": true
+    },
+    {
+      "name": "Étienne Daho",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Feu! Chatterton",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "FFS",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Fink",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "First Aid Kit",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Florent Marchet",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Foals",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Fontaines D.C.",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Franz Ferdinand",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Frustration",
+      "pole": "garage / rock enerve",
+      "verify": true
+    },
+    {
+      "name": "Ghinzu",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Gil Scott-Heron",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Grand Corps Malade",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "HK et les Saltimbanks",
+      "pole": "chanson a texte",
+      "verify": true
+    },
+    {
+      "name": "Hubert-Félix Thiéfaine",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Ibrahim Maalouf",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Iggy Pop",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Imagine Dragons",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Jack White",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Jane's Addiction",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Jeanne Added",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "José González",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Juliette Noureddine",
+      "pole": "chanson a texte",
+      "verify": true,
+      "aka": "Juliette"
+    },
+    {
+      "name": "Kery James",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Kevin Morby",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Khruangbin",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "KOMPROMAT",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Kurt Vile",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "La Blanche",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "La Cafetera Roja",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "La Canaille",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "La Rue Kétanou",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Last Train",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "LCD Soundsystem",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Leonard Cohen",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Les Fatals Picards",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Les Hurlements d'Léo",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Les Ogres de Barback",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Les Têtes Raides",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Loïc Lantoine",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "MADAM",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Mahmood",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Måneskin",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Mano Solo",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Mansfield.TYA",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Manuel Agnelli",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Marc Nammour",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Marianne Faithfull",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Marlene Kuntz",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Médine",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Melissa Laveaux",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Mercury Rev",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Metallica",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Metric",
+      "pole": "indie / post-punk anglophone",
+      "verify": true
+    },
+    {
+      "name": "Michael Kiwanuka",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "Mickey 3D",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Miossec",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Modest Mouse",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Mon Côté Punk",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Monsieur Roux",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Moriarty",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Musica Nuda",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Nick Cave & The Bad Seeds",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Nine Inch Nails",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Noé Preszow",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Octave Noire",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Odezenne",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Orville Peck",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Patrick Watson",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "Piers Faccini",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "PJ Harvey",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Portico Quartet",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Portishead",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Rage Against the Machine",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Raphaële Lannadère",
+      "pole": "coups de coeur (a classer)",
+      "aka": "L"
+    },
+    {
+      "name": "Rebeka Warrior",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Red Hot Chili Peppers",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Renard Tortue",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Richard Hell & The Voidoids",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Rosemary Standley",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Rover",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Saez",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Sages comme des sauvages",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Sanseverino",
+      "pole": "chanson a texte"
+    },
+    {
+      "name": "Saule",
+      "pole": "chanson a texte",
+      "verify": true
+    },
+    {
+      "name": "Savages",
+      "pole": "indie / post-punk anglophone",
+      "verify": true
+    },
+    {
+      "name": "Sergent Garcia",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Sierra Ferrell",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Sinsemilia",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Sofiane Pamart",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Sophie Hunger",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "Sparks",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Stephen Wilson Jr",
+      "pole": "folk / songwriter / soul / world"
+    },
+    {
+      "name": "Suprême NTM",
+      "pole": "coups de coeur (a classer)",
+      "aka": "NTM"
+    },
+    {
+      "name": "System of a Down",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Tamino",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "The Black Keys",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The Cure",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The Dresden Dolls",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The Hives",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The Jon Spencer Blues Explosion",
+      "pole": "garage / rock enerve",
+      "aka": "Jon Spencer",
+      "verify": true
+    },
+    {
+      "name": "The Kills",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "The Last Dinner Party",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "The Rolling Stones",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The Slits",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The Smashing Pumpkins",
+      "pole": "indie / post-punk anglophone",
+      "aka": "Billy Corgan"
+    },
+    {
+      "name": "The Smile",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "The Stooges",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "The White Stripes",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Tiken Jah Fakoly",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Ty Segall",
+      "pole": "garage / rock enerve"
+    },
+    {
+      "name": "U2",
+      "pole": "coups de coeur (a classer)"
+    },
+    {
+      "name": "Venus",
+      "pole": "coups de coeur (a classer)",
+      "verify": true
+    },
+    {
+      "name": "Verdena",
+      "pole": "rock italien"
+    },
+    {
+      "name": "Wet Leg",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Wovenhand",
+      "pole": "garage / rock enerve"
+    },
+    {
+      "name": "Wunderhorse",
+      "pole": "indie / post-punk anglophone"
+    },
+    {
+      "name": "Zaho de Sagazan",
+      "pole": "coups de coeur (a classer)"
+    }
+  ]
+}
