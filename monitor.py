@@ -47,6 +47,11 @@ API_URL = "https://rest.bandsintown.com/artists/{name}/events"
 REQUEST_TIMEOUT = 20
 SLEEP_BETWEEN = 0.6        # politesse entre requetes (sec)
 MAX_RETRIES = 2
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "application/json",
+}
 
 # Boite englobante Ile-de-France (large, volontairement permissive)
 IDF_LAT_MIN, IDF_LAT_MAX = 48.10, 49.25
@@ -150,7 +155,7 @@ def fetch_events(artist_name: str, app_id: str) -> list[dict]:
 
     for attempt in range(1, MAX_RETRIES + 2):
         try:
-            r = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
+            r = requests.get(url, params=params, headers=HEADERS, timeout=REQUEST_TIMEOUT)
             if r.status_code == 404:
                 log.info("  %-32s introuvable (404)", artist_name)
                 return []
